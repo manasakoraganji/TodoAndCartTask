@@ -1,0 +1,92 @@
+a{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+.navbar-container{
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 12px 1px grey;
+
+}
+.website-logo-button{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.website-logo{
+    width: 150px;
+}
+.navigation-button{
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navigation-button:hover{
+    box-shadow: 0px 2px 5px 0px grey;
+    border-radius: 7px;
+}
+.logout-button{
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 7px;
+}
+@media screen and (max-width:768px) {
+    .navigation-buttons-container{
+        display: none;
+    }
+    
+}
+.navigation-buttons-and-logout-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen  and (min-width:769px){
+    .menu-button{
+        display: none;
+    }
+    
+}
+.menu-button{
+    margin: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.menu-container{
+    width: 90px;
+    /* height: 200px; */
+    position: absolute;
+    background-color: grey;
+    top: 54px;
+    right: 32px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.menu-option-list-item{
+height: 35px;
+width: 100%;
+color: black;
+text-align: center;
+}
+.menu-option-list-item:hover{
+background-color: white;
+}

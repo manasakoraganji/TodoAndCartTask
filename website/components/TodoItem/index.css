@@ -1,0 +1,27 @@
+.todo-list-item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 1px 0px 7px 2px grey;
+    border-radius: 5px;
+}
+.remove-todo-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.remove-icon{
+
+}
+.title-description-container{
+
+}
+.todo-title-heading{
+    text-align: start;
+    margin: 0px;
+
+}
